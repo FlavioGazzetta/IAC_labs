@@ -24,7 +24,7 @@ int main(int argc, char **argv, char **env) {
     top->clk = 1;
     top->rst = 0;
     top->en = 0;
-    top->N = 30;
+    top->N = 57;
     vbdSetMode(0);
     // run simulation for many clock cycles
     for (i = 0; i < 3000; i++) {
